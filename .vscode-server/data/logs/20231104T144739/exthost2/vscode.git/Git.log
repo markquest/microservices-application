@@ -1,0 +1,43 @@
+2023-11-04 14:47:53.788 [info] Log level: Info
+2023-11-04 14:47:53.788 [info] Validating found git in: "git"
+2023-11-04 14:47:53.788 [info] Using git "2.40.1" from "git"
+2023-11-04 14:47:53.788 [info] > git rev-parse --show-toplevel [46ms]
+2023-11-04 14:47:53.788 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-04 14:47:53.973 [info] > git rev-parse --show-toplevel [188ms]
+2023-11-04 14:47:53.974 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-04 14:47:54.037 [info] > git rev-parse --show-toplevel [38ms]
+2023-11-04 14:47:54.037 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-04 14:48:05.064 [info] > git rev-parse --show-toplevel [21ms]
+2023-11-04 14:48:05.064 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-04 14:48:25.208 [info] > git rev-parse --show-toplevel [6ms]
+2023-11-04 14:48:25.208 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-11-04 14:48:56.657 [info] > git rev-parse --show-toplevel [2ms]
+2023-11-04 14:48:56.678 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-11-04 14:48:56.711 [info] Open repository: /home/ec2-user/microservices-application
+2023-11-04 14:48:56.750 [info] > git config --get commit.template [19ms]
+2023-11-04 14:48:56.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-11-04 14:48:56.808 [info] > git status -z -uall [37ms]
+2023-11-04 14:48:56.848 [info] > git config --get commit.template [11ms]
+2023-11-04 14:48:56.850 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-11-04 14:48:56.889 [info] > git status -z -uall [22ms]
+2023-11-04 14:48:57.313 [info] > git check-ignore -v -z --stdin [5ms]
+2023-11-04 14:48:59.574 [info] > git check-ignore -v -z --stdin [3ms]
+2023-11-04 14:54:59.933 [info] > git rev-parse --show-toplevel [11ms]
+2023-11-04 14:54:59.961 [info] > git rev-parse --git-dir --git-common-dir [9ms]
+2023-11-04 14:54:59.977 [info] Open repository: /home/ec2-user
+2023-11-04 14:55:00.026 [info] No remotes found in the git config file.
+2023-11-04 14:55:00.032 [info] > git config --get commit.template [26ms]
+2023-11-04 14:55:00.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2023-11-04 14:55:00.105 [info] > git status -z -uall [50ms]
+2023-11-04 14:55:00.800 [info] > git check-ignore -v -z --stdin [12ms]
+2023-11-04 14:55:00.803 [info] > git config --get commit.template [27ms]
+2023-11-04 14:55:00.815 [info] No remotes found in the git config file.
+2023-11-04 14:55:00.815 [info] > git check-ignore -v -z --stdin [17ms]
+2023-11-04 14:55:00.820 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-11-04 14:55:00.862 [info] > git status -z -uall [33ms]
+2023-11-04 14:55:00.932 [info] > git show --textconv :.bashrc [12ms]
+2023-11-04 14:55:00.946 [info] > git ls-files --stage -- /home/ec2-user/.bashrc [15ms]
+2023-11-04 14:55:03.058 [info] No remotes found in the git config file.
+2023-11-04 14:55:03.059 [info] > git config --get commit.template [15ms]
+2023-11-04 14:55:03.063 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-11-04 14:55:03.090 [info] > git status -z -uall [16ms]
