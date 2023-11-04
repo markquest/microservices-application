@@ -1,0 +1,1 @@
+docker-compose -f -d docker-compose-local.yml up
