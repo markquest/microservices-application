@@ -12,13 +12,7 @@ description: A Helm chart for Kubernetes
 # pipeline. Library charts do not define any templates and therefore cannot be deployed.
 type: application
 
-<<<<<<< HEAD
-
-
-# This is the chart version. This version number should be incremented each time you make  changes
-=======
 # This is the chart version. This version number should be incremented each time you make changes
->>>>>>> feature/msp-17
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
 version: HELM_VERSION
@@ -27,4 +21,4 @@ version: HELM_VERSION
 # incremented each time you make changes to the application. Versions are not expected to
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
-appVersion: "0.1.0"
+appVersion: "1.16.0"
